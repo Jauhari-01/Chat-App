@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.chatroom-container{
+    display: none;
+}
+.chatroom-header{
+    background-color: black;
+    color: white;
+    padding: 0.5rem;
+    font-size: 2rem;
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+
+.message{
+    width: fit-content;
+    background-color: rgb(222, 242, 242);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+}
+.sent{
+    align-self: flex-end;
+}
